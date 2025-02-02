@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.book-container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#flipbook {
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    background: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.page {
+    width: 800px;
+    height: 500px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.page img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
